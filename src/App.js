@@ -1,11 +1,18 @@
 import React from 'react';
-import './App.css';
+import styled from 'styled-components';
+import Routes from './routes';
+
+const Wrapper = styled.div`
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+`;
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">kasdjfkjf</header>
-		</div>
+		<Wrapper>
+			<Routes />
+		</Wrapper>
 	);
 }
 
