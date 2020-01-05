@@ -19,13 +19,12 @@ const ContactListWarpper = styled.div`
 const ChatBoxWrapper = styled.div`
 	width: 70%;
 	height: 100%;
-	background: grey;
+	background: white;
 `;
 
 const ComponentWrapper = styled.div`
 	width: 90%;
 	height: 80%;
-	background: lightblue;
 	margin: auto;
 	display: flex;
 `;
