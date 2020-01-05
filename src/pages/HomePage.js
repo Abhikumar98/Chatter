@@ -3,6 +3,13 @@ import styled from 'styled-components';
 import ContactList from '../components/ContactList';
 import ChatBox from '../components/ChatBox';
 
+const Wrapper = styled.div`
+	width: 100vw;
+	height: 100vh;
+	background: lightgreen;
+	display: flex;
+`;
+
 const ContactListWarpper = styled.div`
 	width: 30%;
 	height: 100%;
@@ -18,21 +25,23 @@ const ChatBoxWrapper = styled.div`
 const ComponentWrapper = styled.div`
 	width: 90%;
 	height: 80%;
-	background: lightgreen;
+	background: lightblue;
 	margin: auto;
 	display: flex;
 `;
 
 function HomePage() {
 	return (
-		<ComponentWrapper>
-			<ContactListWarpper>
-				<ContactList />
-			</ContactListWarpper>
-			<ChatBoxWrapper>
-				<ChatBox />
-			</ChatBoxWrapper>
-		</ComponentWrapper>
+		<Wrapper>
+			<ComponentWrapper>
+				<ContactListWarpper>
+					<ContactList />
+				</ContactListWarpper>
+				<ChatBoxWrapper>
+					<ChatBox />
+				</ChatBoxWrapper>
+			</ComponentWrapper>
+		</Wrapper>
 	);
 }
 
