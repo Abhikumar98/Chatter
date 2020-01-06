@@ -4,7 +4,8 @@ import { Avatar } from '@material-ui/core';
 
 const Contact = styled.div`
 	height: 4rem;
-	background: pink;
+	background: #283593;
+	color: white;
 	display: flex;
 	align-items: center;
 	border-bottom: 1px solid blue;

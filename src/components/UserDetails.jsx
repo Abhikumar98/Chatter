@@ -4,15 +4,16 @@ import { Avatar } from '@material-ui/core';
 
 const StyledAvatar = styled(Avatar)`
 	margin: 4%;
-	height: 4rem !important;
-	width: 4rem !important;
+	height: 3rem !important;
+	width: 3rem !important;
 `;
 
 const DetailsWrapper = styled.div`
 	height: 100%;
 	width: 100%;
 	display: flex;
-	background: lightblue;
+	background: #2196f3;
+	color: white;
 	margin: auto;
 	align-items: center;
 `;

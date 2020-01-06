@@ -5,7 +5,7 @@ import Contacts from './Contacts';
 
 const UserWrapper = styled.div`
 	width: 100%;
-	height: 15%;
+	height: 10%;
 	background: orange;
 	display: flex;
 `;

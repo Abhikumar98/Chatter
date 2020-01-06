@@ -23,8 +23,8 @@ const ChatBoxWrapper = styled.div`
 `;
 
 const ComponentWrapper = styled.div`
-	width: 90%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
 	margin: auto;
 	display: flex;
 `;

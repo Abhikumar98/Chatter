@@ -1,27 +1,38 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { Button } from '@material-ui/core';
+import ErrorImage from '../assests/404.jpg';
 
-const Page = styled.div`
-	width: 70%;
-	height: 60%;
-	border-radius: 15px;
-	background: grey;
-	color: white;
-	margin: auto;
-	text-align: center;
-	font-size: 2rem;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+const StyledButton = styled(Button)`
+	position: absolute;
+	width: 18%;
+	height: 9%;
+	background: white !important;
+	top: 89%;
+	left: 41.3%;
+	font-size: 2rem !important;
+	line-height: 0.5 !important;
+	font-weight: 700 !important;
+	color: #07084b !important;
+`;
+
+const PageWrapper = styled.div`
+	height: 100vh;
+	width: 100vw;
+	background-image: url(${ErrorImage});
+	background-size: cover;
+	background-position: center;
+	position: relative;
 `;
 
 const PageNotFound = () => {
 	return (
-		<Page>
-			Whoa, you weren,t supposed to come here. <br />
-			Click <Link to="/">here</Link> to go back.{' '}
-		</Page>
+		<PageWrapper>
+			<Link to="/">
+				<StyledButton>Go back</StyledButton>
+			</Link>
+		</PageWrapper>
 	);
 };
 
