@@ -4,11 +4,11 @@ import { Avatar } from '@material-ui/core';
 
 const Contact = styled.div`
 	height: 4rem;
-	background: #283593;
+	background: #9575cd;
 	color: white;
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid white;
 	&:last-child {
 		border-bottom: none;
 	}

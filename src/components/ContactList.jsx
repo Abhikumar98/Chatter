@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import UserDetails from './UserDetails';
 import Contacts from './Contacts';
+import SearchBar from './SearchBar';
 
 const UserWrapper = styled.div`
 	width: 100%;
@@ -20,6 +21,7 @@ const ContactList = () => {
 			<UserWrapper>
 				<UserDetails />
 			</UserWrapper>
+			<SearchBar />
 			<ContactWrapper>
 				<Contacts />
 			</ContactWrapper>
